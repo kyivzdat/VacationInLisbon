@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376502AA91880BE56440723B69DB1E84 /* Pods-VacationInLisbon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E273DA88E0DB68B092C8A812D49F9E /* Pods-VacationInLisbon-dummy.m */; };
+		376BBB5F58476C267217CB6F4ED7C285 /* CollapsibleTableSectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB293EACD1431A635F30E58712EE3DB5 /* CollapsibleTableSectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BBBF82A240DB98EE0D74D298941037 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		3D864F81DDD675F725EC2FC310F831D8 /* CenteredCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6100CEB5449A1E1DCE6FAAB5F3F49E /* CenteredCollectionView-dummy.m */; };
+		3E4280E396856C22F255FB7338E74647 /* CollapsibleTableSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E476703C2268E3F17A0ED39B93DAC /* CollapsibleTableSectionViewController.swift */; };
+		459C04C8DA89D61B92825117655AEA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		755B52A4B4E659EF1FA8B6C3A49A9DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		86743E87D71FCCAED52879959514FD50 /* CollapsibleTableSectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9AAF2F7C5B9A1A0DC5E485A3BB11CA /* CollapsibleTableSectionViewController-dummy.m */; };
+		8FCB32BC0CE471C1856C2C36C2268544 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1785A4F67A3BE7DEAA01223BE25971 /* CollapsibleTableViewHeader.swift */; };
+		A12623B9A99A396BD0F4BAC58538B046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		B0A2F525F8D18D03F55BD41EEA578114 /* Pods-VacationInLisbon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 644B90CFD324F337D4ABD4FB84C0C31A /* Pods-VacationInLisbon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B621AB8C7038382A09FEDA65431AF487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E27C24C7E0F4A3F5363572B51C8139A1 /* CenteredCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF51DDD969D1C261D7C1CDE882986 /* CenteredCollectionViewFlowLayout.swift */; };
+		E99F6DD1ED448987744E4C71D1E30101 /* CenteredCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AC693FF7B8E13F0F32538858856A38 /* CenteredCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D90BC8834F6F99676A2720CD4DA88FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD6448D737EF94143E2B341B01CD35E;
+			remoteInfo = CollapsibleTableSectionViewController;
+		};
+		E4901A98A506AE6048444A42B1688AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E5167DD6A18C0BBF309695BF1026AD;
+			remoteInfo = CenteredCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DB0933CCE921D0A193871996ACC460 /* CenteredCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CenteredCollectionView.xcconfig; sourceTree = "<group>"; };
+		0FD6179F8D0F61686C9D1403F98699C0 /* Pods-VacationInLisbon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VacationInLisbon-frameworks.sh"; sourceTree = "<group>"; };
+		1464202E11024CD94A20EE525C646037 /* Pods-VacationInLisbon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VacationInLisbon.debug.xcconfig"; sourceTree = "<group>"; };
+		296DF51DDD969D1C261D7C1CDE882986 /* CenteredCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CenteredCollectionViewFlowLayout.swift; path = CenteredCollectionView/Classes/CenteredCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		2AE3CB12397156BA299BA9D494832774 /* Pods-VacationInLisbon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VacationInLisbon-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B1785A4F67A3BE7DEAA01223BE25971 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTableViewHeader.swift; path = CollapsibleTableSectionViewController/CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		37687AF19A6A9029B6EEE307CB95C015 /* Pods_VacationInLisbon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VacationInLisbon.framework; path = "Pods-VacationInLisbon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A544142A1622CD65880F06622820A2D /* Pods-VacationInLisbon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VacationInLisbon.modulemap"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BB44E0FD7F930283EF68BCDE13C0C67 /* CenteredCollectionView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CenteredCollectionView-Info.plist"; sourceTree = "<group>"; };
+		4D6100CEB5449A1E1DCE6FAAB5F3F49E /* CenteredCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CenteredCollectionView-dummy.m"; sourceTree = "<group>"; };
+		644B90CFD324F337D4ABD4FB84C0C31A /* Pods-VacationInLisbon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VacationInLisbon-umbrella.h"; sourceTree = "<group>"; };
+		6DEEB41DB14C0344751BF05FAA8FCC0A /* CollapsibleTableSectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableSectionViewController-prefix.pch"; sourceTree = "<group>"; };
+		76D09E9FD484F615620B00C9CFCB96C5 /* CollapsibleTableSectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CollapsibleTableSectionViewController.framework; path = CollapsibleTableSectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E273DA88E0DB68B092C8A812D49F9E /* Pods-VacationInLisbon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VacationInLisbon-dummy.m"; sourceTree = "<group>"; };
+		9758BA91167E77A47FBADB5E98FB4FB5 /* CenteredCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CenteredCollectionView.modulemap; sourceTree = "<group>"; };
+		97AC693FF7B8E13F0F32538858856A38 /* CenteredCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CenteredCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB293EACD1431A635F30E58712EE3DB5 /* CollapsibleTableSectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableSectionViewController-umbrella.h"; sourceTree = "<group>"; };
+		AD9AAF2F7C5B9A1A0DC5E485A3BB11CA /* CollapsibleTableSectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollapsibleTableSectionViewController-dummy.m"; sourceTree = "<group>"; };
+		BC19E809E9B7FF67CCDE281C4356BB70 /* CollapsibleTableSectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollapsibleTableSectionViewController.modulemap; sourceTree = "<group>"; };
+		BD6E476703C2268E3F17A0ED39B93DAC /* CollapsibleTableSectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTableSectionViewController.swift; path = CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.swift; sourceTree = "<group>"; };
+		C243539E7B7A94576E5F66926839D7A1 /* Pods-VacationInLisbon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VacationInLisbon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7763A4F88B8C05AA39204C4CEDBF7DE /* CollapsibleTableSectionViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CollapsibleTableSectionViewController-Info.plist"; sourceTree = "<group>"; };
+		CA997216C79E94D0F521BFA46ED390B2 /* CenteredCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CenteredCollectionView.framework; path = CenteredCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47C4F833A0CE2BE883CCD889EE97F82 /* Pods-VacationInLisbon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VacationInLisbon-Info.plist"; sourceTree = "<group>"; };
+		DCCE4D9D93B19C12B353B5EBB41A49F1 /* CenteredCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CenteredCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		DFC57943C049A9648BC8BA5C603903B8 /* Pods-VacationInLisbon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VacationInLisbon.release.xcconfig"; sourceTree = "<group>"; };
+		EAB6CAFA64FDAC5B08B260638FBD2F83 /* CollapsibleTableSectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTableSectionViewController.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC9EB8AAD2C9CD9D89890B1F53AB386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B621AB8C7038382A09FEDA65431AF487 /* Foundation.framework in Frameworks */,
+				459C04C8DA89D61B92825117655AEA1C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54732E4CB2F0123F9EACF1F1CB7ED065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755B52A4B4E659EF1FA8B6C3A49A9DD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58774236FCCC162B9C4704463A14ACFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12623B9A99A396BD0F4BAC58538B046 /* Foundation.framework in Frameworks */,
+				38BBBF82A240DB98EE0D74D298941037 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		182DFAFDD354B80A00B537CD7456921A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5858C8E67C9D305730F0280565D0AB4E /* Pods-VacationInLisbon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5858C8E67C9D305730F0280565D0AB4E /* Pods-VacationInLisbon */ = {
+			isa = PBXGroup;
+			children = (
+				3A544142A1622CD65880F06622820A2D /* Pods-VacationInLisbon.modulemap */,
+				C243539E7B7A94576E5F66926839D7A1 /* Pods-VacationInLisbon-acknowledgements.markdown */,
+				2AE3CB12397156BA299BA9D494832774 /* Pods-VacationInLisbon-acknowledgements.plist */,
+				87E273DA88E0DB68B092C8A812D49F9E /* Pods-VacationInLisbon-dummy.m */,
+				0FD6179F8D0F61686C9D1403F98699C0 /* Pods-VacationInLisbon-frameworks.sh */,
+				D47C4F833A0CE2BE883CCD889EE97F82 /* Pods-VacationInLisbon-Info.plist */,
+				644B90CFD324F337D4ABD4FB84C0C31A /* Pods-VacationInLisbon-umbrella.h */,
+				1464202E11024CD94A20EE525C646037 /* Pods-VacationInLisbon.debug.xcconfig */,
+				DFC57943C049A9648BC8BA5C603903B8 /* Pods-VacationInLisbon.release.xcconfig */,
+			);
+			name = "Pods-VacationInLisbon";
+			path = "Target Support Files/Pods-VacationInLisbon";
+			sourceTree = "<group>";
+		};
+		6F0BFD5C988EF123F5BB21D51D700100 /* CenteredCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				296DF51DDD969D1C261D7C1CDE882986 /* CenteredCollectionViewFlowLayout.swift */,
+				893C4F22D049098F0A97199C29D633BD /* Support Files */,
+			);
+			name = CenteredCollectionView;
+			path = CenteredCollectionView;
+			sourceTree = "<group>";
+		};
+		7E5FEF22AE016CC3EC26243174157D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA997216C79E94D0F521BFA46ED390B2 /* CenteredCollectionView.framework */,
+				76D09E9FD484F615620B00C9CFCB96C5 /* CollapsibleTableSectionViewController.framework */,
+				37687AF19A6A9029B6EEE307CB95C015 /* Pods_VacationInLisbon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84636A1E90CD38C04145C8654BA131B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC19E809E9B7FF67CCDE281C4356BB70 /* CollapsibleTableSectionViewController.modulemap */,
+				EAB6CAFA64FDAC5B08B260638FBD2F83 /* CollapsibleTableSectionViewController.xcconfig */,
+				AD9AAF2F7C5B9A1A0DC5E485A3BB11CA /* CollapsibleTableSectionViewController-dummy.m */,
+				C7763A4F88B8C05AA39204C4CEDBF7DE /* CollapsibleTableSectionViewController-Info.plist */,
+				6DEEB41DB14C0344751BF05FAA8FCC0A /* CollapsibleTableSectionViewController-prefix.pch */,
+				AB293EACD1431A635F30E58712EE3DB5 /* CollapsibleTableSectionViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CollapsibleTableSectionViewController";
+			sourceTree = "<group>";
+		};
+		893C4F22D049098F0A97199C29D633BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9758BA91167E77A47FBADB5E98FB4FB5 /* CenteredCollectionView.modulemap */,
+				04DB0933CCE921D0A193871996ACC460 /* CenteredCollectionView.xcconfig */,
+				4D6100CEB5449A1E1DCE6FAAB5F3F49E /* CenteredCollectionView-dummy.m */,
+				4BB44E0FD7F930283EF68BCDE13C0C67 /* CenteredCollectionView-Info.plist */,
+				DCCE4D9D93B19C12B353B5EBB41A49F1 /* CenteredCollectionView-prefix.pch */,
+				97AC693FF7B8E13F0F32538858856A38 /* CenteredCollectionView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CenteredCollectionView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DC3F08FAEAEFA429E42B39B86F51EAC7 /* Pods */,
+				7E5FEF22AE016CC3EC26243174157D26 /* Products */,
+				182DFAFDD354B80A00B537CD7456921A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3F08FAEAEFA429E42B39B86F51EAC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F0BFD5C988EF123F5BB21D51D700100 /* CenteredCollectionView */,
+				E51501D71E55ACD2046F5388C2756D31 /* CollapsibleTableSectionViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E51501D71E55ACD2046F5388C2756D31 /* CollapsibleTableSectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E476703C2268E3F17A0ED39B93DAC /* CollapsibleTableSectionViewController.swift */,
+				2B1785A4F67A3BE7DEAA01223BE25971 /* CollapsibleTableViewHeader.swift */,
+				84636A1E90CD38C04145C8654BA131B9 /* Support Files */,
+			);
+			name = CollapsibleTableSectionViewController;
+			path = CollapsibleTableSectionViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12B761920869649BBEB054B26B473E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99F6DD1ED448987744E4C71D1E30101 /* CenteredCollectionView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204C4A199CEE67630D521CB1D7A8779F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376BBB5F58476C267217CB6F4ED7C285 /* CollapsibleTableSectionViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427B20E2E8AF06BFE3B605895C403E92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A2F525F8D18D03F55BD41EEA578114 /* Pods-VacationInLisbon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E518E758305FB73DDFB4810D92D9AE5F /* Build configuration list for PBXNativeTarget "CenteredCollectionView" */;
+			buildPhases = (
+				12B761920869649BBEB054B26B473E50 /* Headers */,
+				4F09396935D591A21F22A441D95173EC /* Sources */,
+				1EC9EB8AAD2C9CD9D89890B1F53AB386 /* Frameworks */,
+				28D0F5F3D4E2BB5ADA778CE8BA446CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenteredCollectionView;
+			productName = CenteredCollectionView;
+			productReference = CA997216C79E94D0F521BFA46ED390B2 /* CenteredCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8837101E54D8E205AD3C5E1690172717 /* Pods-VacationInLisbon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1947242F59ACCD618F7095B152A8A5 /* Build configuration list for PBXNativeTarget "Pods-VacationInLisbon" */;
+			buildPhases = (
+				427B20E2E8AF06BFE3B605895C403E92 /* Headers */,
+				72881EA95D2305528A9A699A38C19986 /* Sources */,
+				54732E4CB2F0123F9EACF1F1CB7ED065 /* Frameworks */,
+				1DBC2E20A01C9FEE35382305D106DC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F510312B67459BCDB97487198403E24A /* PBXTargetDependency */,
+				70ACE33710044238AE635E38BBC9B850 /* PBXTargetDependency */,
+			);
+			name = "Pods-VacationInLisbon";
+			productName = "Pods-VacationInLisbon";
+			productReference = 37687AF19A6A9029B6EEE307CB95C015 /* Pods_VacationInLisbon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFD6448D737EF94143E2B341B01CD35E /* CollapsibleTableSectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16484632408CCE76007968205CA6415D /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionViewController" */;
+			buildPhases = (
+				204C4A199CEE67630D521CB1D7A8779F /* Headers */,
+				2A837191F0224A82667DA39091BADB39 /* Sources */,
+				58774236FCCC162B9C4704463A14ACFE /* Frameworks */,
+				CF1F1EBFB01DBDEA2F0B0CA9CA765335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleTableSectionViewController;
+			productName = CollapsibleTableSectionViewController;
+			productReference = 76D09E9FD484F615620B00C9CFCB96C5 /* CollapsibleTableSectionViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7E5FEF22AE016CC3EC26243174157D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */,
+				FFD6448D737EF94143E2B341B01CD35E /* CollapsibleTableSectionViewController */,
+				8837101E54D8E205AD3C5E1690172717 /* Pods-VacationInLisbon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DBC2E20A01C9FEE35382305D106DC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D0F5F3D4E2BB5ADA778CE8BA446CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1F1EBFB01DBDEA2F0B0CA9CA765335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A837191F0224A82667DA39091BADB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86743E87D71FCCAED52879959514FD50 /* CollapsibleTableSectionViewController-dummy.m in Sources */,
+				3E4280E396856C22F255FB7338E74647 /* CollapsibleTableSectionViewController.swift in Sources */,
+				8FCB32BC0CE471C1856C2C36C2268544 /* CollapsibleTableViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F09396935D591A21F22A441D95173EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D864F81DDD675F725EC2FC310F831D8 /* CenteredCollectionView-dummy.m in Sources */,
+				E27C24C7E0F4A3F5363572B51C8139A1 /* CenteredCollectionViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72881EA95D2305528A9A699A38C19986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376502AA91880BE56440723B69DB1E84 /* Pods-VacationInLisbon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70ACE33710044238AE635E38BBC9B850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CollapsibleTableSectionViewController;
+			target = FFD6448D737EF94143E2B341B01CD35E /* CollapsibleTableSectionViewController */;
+			targetProxy = 7D90BC8834F6F99676A2720CD4DA88FE /* PBXContainerItemProxy */;
+		};
+		F510312B67459BCDB97487198403E24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CenteredCollectionView;
+			target = 61E5167DD6A18C0BBF309695BF1026AD /* CenteredCollectionView */;
+			targetProxy = E4901A98A506AE6048444A42B1688AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10C45727EFD712008932A628FB6EB3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1464202E11024CD94A20EE525C646037 /* Pods-VacationInLisbon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6EB640DF421E3A6DB6D34E68A5D43AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC57943C049A9648BC8BA5C603903B8 /* Pods-VacationInLisbon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72AE37E0169C9DF2C22362BC7874A390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DB0933CCE921D0A193871996ACC460 /* CenteredCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CenteredCollectionView/CenteredCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = CenteredCollectionView;
+				PRODUCT_NAME = CenteredCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96642EB862C44B4B0E056AE298C73783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB6CAFA64FDAC5B08B260638FBD2F83 /* CollapsibleTableSectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.modulemap";
+				PRODUCT_MODULE_NAME = CollapsibleTableSectionViewController;
+				PRODUCT_NAME = CollapsibleTableSectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC1E3D45CF3EA4E3EE85B1648FDEE829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB6CAFA64FDAC5B08B260638FBD2F83 /* CollapsibleTableSectionViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.modulemap";
+				PRODUCT_MODULE_NAME = CollapsibleTableSectionViewController;
+				PRODUCT_NAME = CollapsibleTableSectionViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5FEA6B08586B4DB4FBD33790C2B5F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DB0933CCE921D0A193871996ACC460 /* CenteredCollectionView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CenteredCollectionView/CenteredCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CenteredCollectionView/CenteredCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = CenteredCollectionView;
+				PRODUCT_NAME = CenteredCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16484632408CCE76007968205CA6415D /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96642EB862C44B4B0E056AE298C73783 /* Debug */,
+				BC1E3D45CF3EA4E3EE85B1648FDEE829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1947242F59ACCD618F7095B152A8A5 /* Build configuration list for PBXNativeTarget "Pods-VacationInLisbon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C45727EFD712008932A628FB6EB3D2 /* Debug */,
+				6EB640DF421E3A6DB6D34E68A5D43AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E518E758305FB73DDFB4810D92D9AE5F /* Build configuration list for PBXNativeTarget "CenteredCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE37E0169C9DF2C22362BC7874A390 /* Debug */,
+				C5FEA6B08586B4DB4FBD33790C2B5F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

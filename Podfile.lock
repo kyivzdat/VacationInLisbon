@@ -1,0 +1,20 @@
+PODS:
+  - CenteredCollectionView (2.2.1)
+  - CollapsibleTableSectionViewController (2.0.1)
+
+DEPENDENCIES:
+  - CenteredCollectionView
+  - CollapsibleTableSectionViewController (~> 2.0.1)
+
+SPEC REPOS:
+  trunk:
+    - CenteredCollectionView
+    - CollapsibleTableSectionViewController
+
+SPEC CHECKSUMS:
+  CenteredCollectionView: ba6e45fb7774627890621d73c8dd7dbd33391da9
+  CollapsibleTableSectionViewController: 40d97d684d870044522a0dc29b128a6acaaa99df
+
+PODFILE CHECKSUM: 29d482da2dadf581825322e09fb0b39256f7d473
+
+COCOAPODS: 1.8.4

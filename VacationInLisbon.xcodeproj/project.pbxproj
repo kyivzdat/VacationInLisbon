@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E37D4BB9C7F9260D1AE872A /* Pods_VacationInLisbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55794DCD3CDB77364AF72C80 /* Pods_VacationInLisbon.framework */; };
+		E18741A023D57C120057E186 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187419F23D57C120057E186 /* PlaceModel.swift */; };
+		E18741A223D57CBB0057E186 /* BeatifulBarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18741A123D57CBB0057E186 /* BeatifulBarsModel.swift */; };
+		E18741A423D57CD30057E186 /* PinkStreetBarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18741A323D57CD30057E186 /* PinkStreetBarsModel.swift */; };
+		E18741A623D57CD60057E186 /* RoofTopBarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18741A523D57CD60057E186 /* RoofTopBarsModel.swift */; };
+		E1BBC38A23D57E750005612D /* BestCafesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC38923D57E740005612D /* BestCafesModel.swift */; };
+		E1BBC38C23D57E7A0005612D /* KioskCafes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC38B23D57E7A0005612D /* KioskCafes.swift */; };
+		E1BBC39123D57E9D0005612D /* AlfamaRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39023D57E9D0005612D /* AlfamaRestaurants.swift */; };
+		E1BBC39323D57EC80005612D /* PrincipeRealRestaurantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39223D57EC80005612D /* PrincipeRealRestaurantsModel.swift */; };
+		E1BBC39623D5A9A90005612D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39523D5A9A90005612D /* TableViewCell.swift */; };
+		E1BBC39823D5E9790005612D /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39723D5E9790005612D /* DetailVC.swift */; };
+		E1BBC39A23D5F3A00005612D /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39923D5F3A00005612D /* WebVC.swift */; };
+		E1BBC39C23D5F4060005612D /* DetailPhotoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39B23D5F4060005612D /* DetailPhotoCVCell.swift */; };
+		E1BBC39E23D5F5210005612D /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39D23D5F5210005612D /* PlacesVC.swift */; };
+		E1BBC3A023D5F5320005612D /* PlacesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBC39F23D5F5320005612D /* PlacesTVCell.swift */; };
+		E1FE56E823D1FD6100F7CA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE56E723D1FD6100F7CA44 /* AppDelegate.swift */; };
+		E1FE56EA23D1FD6100F7CA44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE56E923D1FD6100F7CA44 /* ViewController.swift */; };
+		E1FE56ED23D1FD6100F7CA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FE56EB23D1FD6100F7CA44 /* Main.storyboard */; };
+		E1FE56F023D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1FE56EE23D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodeld */; };
+		E1FE56F223D1FD6900F7CA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FE56F123D1FD6900F7CA44 /* Assets.xcassets */; };
+		E1FE56F523D1FD6900F7CA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FE56F323D1FD6900F7CA44 /* LaunchScreen.storyboard */; };
+		E1FE570123D1FF0100F7CA44 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FE570023D1FF0100F7CA44 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		476D842AFD3AC396B191EC86 /* Pods-VacationInLisbon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacationInLisbon.release.xcconfig"; path = "Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon.release.xcconfig"; sourceTree = "<group>"; };
+		4CD5ED892DFE0ACA9894E459 /* Pods-VacationInLisbon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VacationInLisbon.debug.xcconfig"; path = "Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon.debug.xcconfig"; sourceTree = "<group>"; };
+		55794DCD3CDB77364AF72C80 /* Pods_VacationInLisbon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VacationInLisbon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E187419F23D57C120057E186 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		E18741A123D57CBB0057E186 /* BeatifulBarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatifulBarsModel.swift; sourceTree = "<group>"; };
+		E18741A323D57CD30057E186 /* PinkStreetBarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkStreetBarsModel.swift; sourceTree = "<group>"; };
+		E18741A523D57CD60057E186 /* RoofTopBarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofTopBarsModel.swift; sourceTree = "<group>"; };
+		E1BBC38923D57E740005612D /* BestCafesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCafesModel.swift; sourceTree = "<group>"; };
+		E1BBC38B23D57E7A0005612D /* KioskCafes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KioskCafes.swift; sourceTree = "<group>"; };
+		E1BBC39023D57E9D0005612D /* AlfamaRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfamaRestaurants.swift; sourceTree = "<group>"; };
+		E1BBC39223D57EC80005612D /* PrincipeRealRestaurantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipeRealRestaurantsModel.swift; sourceTree = "<group>"; };
+		E1BBC39523D5A9A90005612D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E1BBC39723D5E9790005612D /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		E1BBC39923D5F3A00005612D /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		E1BBC39B23D5F4060005612D /* DetailPhotoCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotoCVCell.swift; sourceTree = "<group>"; };
+		E1BBC39D23D5F5210005612D /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		E1BBC39F23D5F5320005612D /* PlacesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTVCell.swift; sourceTree = "<group>"; };
+		E1FE56E423D1FD6100F7CA44 /* VacationInLisbon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacationInLisbon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FE56E723D1FD6100F7CA44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1FE56E923D1FD6100F7CA44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1FE56EC23D1FD6100F7CA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FE56EF23D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeelTheLisbon.xcdatamodel; sourceTree = "<group>"; };
+		E1FE56F123D1FD6900F7CA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FE56F423D1FD6900F7CA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FE56F623D1FD6900F7CA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FE570023D1FF0100F7CA44 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FE56E123D1FD6100F7CA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E37D4BB9C7F9260D1AE872A /* Pods_VacationInLisbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		597C1AC57421914A234CB40A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55794DCD3CDB77364AF72C80 /* Pods_VacationInLisbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB85549247A1910E7CA59C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5ED892DFE0ACA9894E459 /* Pods-VacationInLisbon.debug.xcconfig */,
+				476D842AFD3AC396B191EC86 /* Pods-VacationInLisbon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E18741A723D57D000057E186 /* Bars */ = {
+			isa = PBXGroup;
+			children = (
+				E18741A123D57CBB0057E186 /* BeatifulBarsModel.swift */,
+				E18741A323D57CD30057E186 /* PinkStreetBarsModel.swift */,
+				E18741A523D57CD60057E186 /* RoofTopBarsModel.swift */,
+			);
+			path = Bars;
+			sourceTree = "<group>";
+		};
+		E1BBC38F23D57E810005612D /* Cafes */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBC38923D57E740005612D /* BestCafesModel.swift */,
+				E1BBC38B23D57E7A0005612D /* KioskCafes.swift */,
+			);
+			path = Cafes;
+			sourceTree = "<group>";
+		};
+		E1BBC39423D57ECB0005612D /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBC39023D57E9D0005612D /* AlfamaRestaurants.swift */,
+				E1BBC39223D57EC80005612D /* PrincipeRealRestaurantsModel.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		E1BBC3A123D5F5B50005612D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE56E923D1FD6100F7CA44 /* ViewController.swift */,
+				E1BBC39D23D5F5210005612D /* PlacesVC.swift */,
+				E1BBC39923D5F3A00005612D /* WebVC.swift */,
+				E1BBC39723D5E9790005612D /* DetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E1BBC3A223D5F5BE0005612D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBC39F23D5F5320005612D /* PlacesTVCell.swift */,
+				E1BBC39523D5A9A90005612D /* TableViewCell.swift */,
+				E1BBC39B23D5F4060005612D /* DetailPhotoCVCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1FE56DB23D1FD6100F7CA44 = {
+			isa = PBXGroup;
+			children = (
+				E1FE56E623D1FD6100F7CA44 /* VacationInLisbon */,
+				E1FE56E523D1FD6100F7CA44 /* Products */,
+				BFB85549247A1910E7CA59C6 /* Pods */,
+				597C1AC57421914A234CB40A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FE56E523D1FD6100F7CA44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE56E423D1FD6100F7CA44 /* VacationInLisbon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FE56E623D1FD6100F7CA44 /* VacationInLisbon */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE56FC23D1FD9400F7CA44 /* Supporting */,
+				E1FE56FF23D1FE2800F7CA44 /* Model */,
+				E1BBC3A223D5F5BE0005612D /* View */,
+				E1BBC3A123D5F5B50005612D /* Controllers */,
+				E1FE56EB23D1FD6100F7CA44 /* Main.storyboard */,
+			);
+			path = VacationInLisbon;
+			sourceTree = "<group>";
+		};
+		E1FE56FC23D1FD9400F7CA44 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE56E723D1FD6100F7CA44 /* AppDelegate.swift */,
+				E1FE56F123D1FD6900F7CA44 /* Assets.xcassets */,
+				E1FE56F323D1FD6900F7CA44 /* LaunchScreen.storyboard */,
+				E1FE56F623D1FD6900F7CA44 /* Info.plist */,
+				E1FE570023D1FF0100F7CA44 /* Helper.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		E1FE56FF23D1FE2800F7CA44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E187419F23D57C120057E186 /* PlaceModel.swift */,
+				E1FE56EE23D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodeld */,
+				E18741A723D57D000057E186 /* Bars */,
+				E1BBC38F23D57E810005612D /* Cafes */,
+				E1BBC39423D57ECB0005612D /* Restaurants */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FE56E323D1FD6100F7CA44 /* VacationInLisbon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FE56F923D1FD6900F7CA44 /* Build configuration list for PBXNativeTarget "VacationInLisbon" */;
+			buildPhases = (
+				6F9AA070F06BF45FC653131A /* [CP] Check Pods Manifest.lock */,
+				E1FE56E023D1FD6100F7CA44 /* Sources */,
+				E1FE56E123D1FD6100F7CA44 /* Frameworks */,
+				E1FE56E223D1FD6100F7CA44 /* Resources */,
+				CB32329CB48E6E86FC601DCB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VacationInLisbon;
+			productName = FeelTheLisbon;
+			productReference = E1FE56E423D1FD6100F7CA44 /* VacationInLisbon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FE56DC23D1FD6100F7CA44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vladyslav PALAMARCHUK";
+				TargetAttributes = {
+					E1FE56E323D1FD6100F7CA44 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E1FE56DF23D1FD6100F7CA44 /* Build configuration list for PBXProject "VacationInLisbon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FE56DB23D1FD6100F7CA44;
+			productRefGroup = E1FE56E523D1FD6100F7CA44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FE56E323D1FD6100F7CA44 /* VacationInLisbon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FE56E223D1FD6100F7CA44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FE56F523D1FD6900F7CA44 /* LaunchScreen.storyboard in Resources */,
+				E1FE56F223D1FD6900F7CA44 /* Assets.xcassets in Resources */,
+				E1FE56ED23D1FD6100F7CA44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F9AA070F06BF45FC653131A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VacationInLisbon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB32329CB48E6E86FC601DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VacationInLisbon/Pods-VacationInLisbon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FE56E023D1FD6100F7CA44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BBC39623D5A9A90005612D /* TableViewCell.swift in Sources */,
+				E1BBC39E23D5F5210005612D /* PlacesVC.swift in Sources */,
+				E1BBC38C23D57E7A0005612D /* KioskCafes.swift in Sources */,
+				E1FE56EA23D1FD6100F7CA44 /* ViewController.swift in Sources */,
+				E18741A223D57CBB0057E186 /* BeatifulBarsModel.swift in Sources */,
+				E18741A423D57CD30057E186 /* PinkStreetBarsModel.swift in Sources */,
+				E1FE56E823D1FD6100F7CA44 /* AppDelegate.swift in Sources */,
+				E1BBC3A023D5F5320005612D /* PlacesTVCell.swift in Sources */,
+				E1BBC38A23D57E750005612D /* BestCafesModel.swift in Sources */,
+				E1BBC39323D57EC80005612D /* PrincipeRealRestaurantsModel.swift in Sources */,
+				E1BBC39C23D5F4060005612D /* DetailPhotoCVCell.swift in Sources */,
+				E1BBC39123D57E9D0005612D /* AlfamaRestaurants.swift in Sources */,
+				E18741A623D57CD60057E186 /* RoofTopBarsModel.swift in Sources */,
+				E18741A023D57C120057E186 /* PlaceModel.swift in Sources */,
+				E1FE570123D1FF0100F7CA44 /* Helper.swift in Sources */,
+				E1BBC39A23D5F3A00005612D /* WebVC.swift in Sources */,
+				E1FE56F023D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodeld in Sources */,
+				E1BBC39823D5E9790005612D /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1FE56EB23D1FD6100F7CA44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FE56EC23D1FD6100F7CA44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FE56F323D1FD6900F7CA44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FE56F423D1FD6900F7CA44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FE56F723D1FD6900F7CA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1FE56F823D1FD6900F7CA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FE56FA23D1FD6900F7CA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD5ED892DFE0ACA9894E459 /* Pods-VacationInLisbon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBUR45N368;
+				INFOPLIST_FILE = "$(SRCROOT)/VacationInLisbon/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNIT.Factory.FeelTheLisbon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1FE56FB23D1FD6900F7CA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476D842AFD3AC396B191EC86 /* Pods-VacationInLisbon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBUR45N368;
+				INFOPLIST_FILE = "$(SRCROOT)/VacationInLisbon/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UNIT.Factory.FeelTheLisbon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FE56DF23D1FD6100F7CA44 /* Build configuration list for PBXProject "VacationInLisbon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE56F723D1FD6900F7CA44 /* Debug */,
+				E1FE56F823D1FD6900F7CA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FE56F923D1FD6900F7CA44 /* Build configuration list for PBXNativeTarget "VacationInLisbon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE56FA23D1FD6900F7CA44 /* Debug */,
+				E1FE56FB23D1FD6900F7CA44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1FE56EE23D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1FE56EF23D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodel */,
+			);
+			currentVersion = E1FE56EF23D1FD6100F7CA44 /* FeelTheLisbon.xcdatamodel */;
+			path = FeelTheLisbon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1FE56DC23D1FD6100F7CA44 /* Project object */;
+}

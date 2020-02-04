@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VacationInLisbon/Controllers/PlacesVC.swift"
+            timestampString = "601235376.102088"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VacationInLisbon/Supporting/AppDelegate.swift"
+            timestampString = "601235376.102721"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "loadingData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VacationInLisbon.AppDelegate.loadingData() -&gt; Swift.Bool"
+                  moduleName = "VacationInLisbon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vpalamar/Desktop/VacationInLisbon/VacationInLisbon/Supporting/AppDelegate.swift"
+                  timestampString = "601226943.076054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2643">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VacationInLisbon.AppDelegate.loadingData() -&gt; Swift.Bool"
+                  moduleName = "VacationInLisbon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vpalamar/Desktop/VacationInLisbon/VacationInLisbon/Supporting/AppDelegate.swift"
+                  timestampString = "601226943.078004"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "3355">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VacationInLisbon.AppDelegate.loadingData() -&gt; Swift.Bool"
+                  moduleName = "VacationInLisbon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vpalamar/Desktop/VacationInLisbon/VacationInLisbon/Supporting/AppDelegate.swift"
+                  timestampString = "601226943.0810961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "3838">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
